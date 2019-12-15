@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Adivinhe o número</title>
+</head>
+<body onload="resetar()">
+    <section>
+        <div class="cont">
+                <div class="conteiner" id="n1">
+                    <p id="numero"></p>
+                </div>
+                <div class="sla">
+                        <p class="pergunta" id="pergunta">.</p>
+                    </div>
+                
+
+                <input type="text" class="conteiner" id="n2">
+        </div>
+
+        
+            
+        <div class="sla">
+            <button class="botao" onclick="verificar()">Verificar</button>
+        </div>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
